@@ -1,0 +1,25 @@
+.footer{
+width: 100%;
+max-width: 1024px;
+font-size: 14px;
+
+}
+.footerContainer{
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin-bottom: 50px;
+
+}
+.footerList li{
+list-style-type: none;
+}
+.footerItem{
+color: rgb(6, 50, 110);
+cursor: pointer;
+margin-bottom: 5px;
+}
+.footerText{
+text-align: center;
+margin-bottom: 25px;
+}

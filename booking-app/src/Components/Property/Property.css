@@ -1,0 +1,27 @@
+.propertyList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.propertyItem{
+    flex: 1;
+    border-radius: 10px;
+    /* position: relative; */
+    overflow: hidden;
+    cursor: pointer;
+}
+.propertyImg{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+}
+.propertyTitles .p-title1{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.propertyTitles .p-title2{
+    font-size: 14px;
+    font-weight: 400;
+}

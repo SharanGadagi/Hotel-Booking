@@ -1,0 +1,106 @@
+.reserve {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 14, 14, 0.737);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserver-container {
+    background-color: white;
+    padding: 0 20px 5px 20px;
+    width: 25%;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.rClose {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
+.sRoom {
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 65px;
+    text-transform: capitalize;
+}
+
+.rItem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 7px;
+}
+
+.rInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.rInfo .rTitle {
+    font-weight: 600;
+}
+
+.rInfo .rDesc {
+    font-weight: 300;
+}
+
+.rInfo .rMax {
+    font-size: 14px;
+}
+
+.rMax b {
+    font-size: 14px;
+}
+
+.rPrice {
+    font-weight: 500;
+    color: #373738;
+}
+
+.rSelectRoom {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center;
+  text-align: center; */
+    gap: 12px;
+    font-size: 15px;
+    color: gray;
+}
+
+.roomNumbers {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.roomNumbers label {
+}
+
+.roomNumbers input {
+}
+
+.rBtn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}

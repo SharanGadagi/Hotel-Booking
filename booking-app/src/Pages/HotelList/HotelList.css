@@ -1,0 +1,76 @@
+.hotelListContainer{
+display: flex;justify-content: center;
+margin-top: 20px;
+}
+.hotelListWrapper{
+display: flex;
+width: 100%;
+max-width: 1024px;
+gap: 20px;
+}
+.hotelListSearch{
+flex: 1;
+background-color: rgba(150, 150, 22, 0.951);
+border-radius: 10px;
+position: sticky;
+padding: 12px;
+top: 10px;
+height: max-content;
+}
+.hls-title{
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: black;
+}
+.hls-Item{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+.hlsItem_container{
+    padding: 10px;
+}
+.hls-Item>label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.hls-Item>input{
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+.hls-date{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.hlsOptionItem{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    color: rgb(53, 53, 53);
+    font-size: 14px;
+}
+.hlsOptionInput{
+    width:60px;
+    height: 25px;
+}
+.hls-searchBtn{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(29, 29, 147);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.hotelListResult{
+flex: 3;
+}

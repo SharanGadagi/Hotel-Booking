@@ -1,0 +1,148 @@
+.hotelContainer{
+display: flex;
+align-items: center;
+margin-top: 20px;
+flex-direction: column;
+}
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+position: relative;
+}
+.bookNow{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 12px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.hotelTitle{
+font-size: 24px;
+}
+.hotelAddress{
+    font-size: 14px;
+display: flex;
+gap: 10px;
+align-items: center;
+font-weight: bold;
+}
+.hotelLocation{
+
+}
+.hotelDistance{
+font-size: 14px;
+color: blueviolet;
+}
+.hotelPrice{
+font-size: 15px;
+color: rgb(5, 139, 19);
+}
+.hotelImgs{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.hotelImgWrapper{
+width: 33%;
+}
+.hotelImg{
+width: 100%;
+height: 300px;
+object-fit: cover;
+}
+.hotelDetails{
+display: flex;
+gap: 20px;
+justify-content: space-between;
+margin-top: 15px;
+}
+.hotelDesc{
+flex: 3;
+}
+.hotelDetail-title{
+
+}
+.hotelPara{
+font-size: 14px;
+margin-top: 20px;
+font-weight: 300;
+}
+.hotelHighlightPrice{
+flex: 1;
+background-color: #e1ecfe;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px;
+}
+.hotelHighlightPrice>h1{
+font-size: 20px;
+color: gray;
+}
+.hotelHighlightPrice>span{
+font-size: 14px;
+
+}
+.hotelHighlightPrice>h2{
+font-weight: 400;
+}
+.priceBold{
+
+}
+.hotelPriceBtn{
+    
+    padding: 12px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.slider{
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    background-color: rgba(112, 110, 110, 0.666);
+}
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 38px;
+    cursor: pointer;
+    color: rgb(49, 49, 49);
+}
+.arrow{
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    color: lightgray;
+}

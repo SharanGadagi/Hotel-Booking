@@ -1,0 +1,117 @@
+.header{
+background-color: rgb(61, 61, 176);
+color: white;
+display: flex;
+justify-content: center;
+position: relative;
+}
+.headerContainer{
+width: 100%;
+max-width: 1024px;
+margin: 20px 0 100px 0 ;
+}
+.headerContainer.hotelList{
+    margin: 20px 0 0px 0 ;  
+}
+.headerList{
+display: flex;
+gap: 40px;
+margin-bottom: 50px;
+}
+.hearerListItem{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+/* .header-icon-name{
+
+} */
+.header-desc{
+    margin: 20px 0;
+}
+.header-btn{
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(29, 138, 178);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  
+}
+.header-search{
+    background-color: white;
+    border: 3px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    padding: 10px 0;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerSearch-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.headerSearchInput{
+   border: none;
+   outline: none;
+}
+.headerSearchText{
+    color: rgb(105, 104, 104);
+}
+.headerSearch-btn{
+    padding: 8px 16px;
+    background-color: rgb(56, 56, 156);
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.calendar{
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+}
+.personOptions{
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    color:rgb(105, 104, 104) ;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+
+}
+.p-optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+    color: black;
+}
+.personCountBtn{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(61, 61, 176);
+    cursor: pointer;
+    background-color: white;
+}
+.personCountBtn:disabled{
+    cursor: not-allowed;
+}
+.personCount{
+    font-weight: 600;
+}
